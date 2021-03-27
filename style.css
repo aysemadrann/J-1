@@ -1,0 +1,128 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: sans-serif;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* başlangıç*/
+.bg-color{
+    background-color: #ebf0f0;
+}
+.text{
+    color: #0b4175;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: block;
+    font-weight: 500;
+    
+}
+.mn-right{
+    margin-right: 20px;
+}
+.img{
+    height: 20px;
+}
+.border{
+    border-width: 1px;
+    border-style: solid;
+}
+.font-text{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.span{
+    font-size: 10px;
+
+}
+#navbarSupportedContent ul li {
+    display: block;
+    border-color: black;
+    border-style: solid;
+
+    text-decoration:none; 
+}
+.align{
+    text-align: justify;
+    position: relative;
+    margin: auto;
+}
+.vr{
+    border-left: 1px solid black;
+    opacity: 0.10;
+    margin-top: 10px;
+    text-align: center;
+    height: 250px;
+    float: left;
+}
+.info{
+    color: #0379a2;
+    font-size: 12px;
+    margin-top: 20px;
+    text-decoration: none;
+    
+}
+.p-margin{
+    float: right;
+    font-size: 12px;
+    margin-top: -15px;
+    margin-right: 10px;
+}
+.why{
+    margin-left: 20px;
+}
+.navbar-nav li:hover{
+    color: #0b4175;;
+}
+.ml-left{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.mb-bottom{
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+.hrr{
+    opacity: 0.10;
+}
